@@ -11,18 +11,18 @@ fun main(args: Array<String>) {
         the other, or you can just use a label and skip the desired loop.
      */
 
-    val array : IntArray = intArrayOf(1,2,3,4,5) ;
-    var someNumber = 5;
+    val array : IntArray = intArrayOf(1,2,3,4,5)
+    var someNumber = 5
     arrayFor@ for((index, value) in array.withIndex()){
-        println("Hello from value $value");
+        println("Hello from value $value")
         while(someNumber >= 0){
-            println("$someNumber is a funny number");
-            someNumber--;
+            println("$someNumber is a funny number")
+            someNumber--
             if(someNumber == 0){
-                continue@arrayFor;
+                continue@arrayFor
             }
         }
-        println("Goodbye from index $index");
+        println("Goodbye from index $index")
     }
     /*
         If you run the program, you will notice that the console didn't printed out the first goodbye because the continue inside

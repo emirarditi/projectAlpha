@@ -10,18 +10,18 @@ fun main(args: Array<String>) {
         Instead, it iterates through something. See the example below
      */
 
-    val collection : Collection<String> = listOf("a", "b", "c");
+    val collection : Collection<String> = listOf("a", "b", "c")
     for(item: String in collection){
-        println(item);
+        println(item)
     }
 
     /*
         You can iterate through the indices of an array with the following syntax
      */
 
-    val array : IntArray = intArrayOf(4,2,3);
+    val array : IntArray = intArrayOf(4,2,3)
     for(number in array.indices){
-        println("index $number has the value ${array[number]}");
+        println("index $number has the value ${array[number]}")
     }
 
     /*
@@ -29,6 +29,6 @@ fun main(args: Array<String>) {
      */
 
     for((index, value) in array.withIndex()){
-        println("index $index has the value $value");
+        println("index $index has the value $value")
     }
 }

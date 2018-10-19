@@ -9,14 +9,14 @@ fun main(args: Array<String>) {
     use cases for when in Kotlin. Speaking of cases, Kotlin replace the switch/case flow in Java with when,
     but with a lot of different features. First I will show you the most basic when statement in Kotlin.
      */
-    val x : Int = 5;
+    val x : Int = 5
     when(x){
-        1 -> println("x is 1");
-        2 -> println("x is 2");
-        3 -> println("x is 3");
-        4 -> println("x is 4");
-        5 -> println("x is 5");
-        else -> println("x is something else");
+        1 -> println("x is 1")
+        2 -> println("x is 2")
+        3 -> println("x is 3")
+        4 -> println("x is 4")
+        5 -> println("x is 5")
+        else -> println("x is something else")
     }
     /*
         Notice that there are no break statements. But when also stops when it finds a matching property.
@@ -24,11 +24,11 @@ fun main(args: Array<String>) {
     
     when(x){
         4 -> {
-            println("You can also execute multiple lines using blocks.");
-            println("Kotlin is fun and my number is 4");
+            println("You can also execute multiple lines using blocks.")
+            println("Kotlin is fun and my number is 4")
         }
         
-        5 -> println("My number is 5");
+        5 -> println("My number is 5")
     }
     /*
         You don't have to define the else statement, and nothing wrong happens if the statement doesn't match any
@@ -36,7 +36,7 @@ fun main(args: Array<String>) {
      */
 
     when(x){
-        1, 2, 3, 4, 5 -> println("I have a number");
+        1, 2, 3, 4, 5 -> println("I have a number")
         /*
             You can also assign multiple values to the same case.
          */
@@ -45,10 +45,10 @@ fun main(args: Array<String>) {
         /*
             You can also give ranges using the in statement. You can define a range and give inside the when too.
          */
-    val validNumbers : IntRange = 1..5;
+    val validNumbers : IntRange = 1..5
     when(x){
-        in 1..5 -> print("x is in the range");
-        in validNumbers -> print("x is valid");
+        in 1..5 -> print("x is in the range")
+        in validNumbers -> print("x is valid")
     }
 
     /*
@@ -56,8 +56,8 @@ fun main(args: Array<String>) {
      */
 
     val exampleSomething : String = when(x){ //*TODO* check issue 1: can't use is String(research for it)
-        is Int -> "x is a number";
-        else -> "It is something else";
+        is Int -> "x is a number"
+        else -> "It is something else"
     }
 
     /*
@@ -65,8 +65,8 @@ fun main(args: Array<String>) {
      */
 
     when{
-        x.equals(5) -> println("true");
-        else -> println("false");
+        x.equals(5) -> println("true")
+        else -> println("false")
     }
 }
 

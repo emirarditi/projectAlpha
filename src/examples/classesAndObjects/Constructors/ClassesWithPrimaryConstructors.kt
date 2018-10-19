@@ -16,7 +16,7 @@ class HumanWithFieldParameterConstructor(var firstName : String){
 }
 
 class HumanWithConstructorKeyword constructor(firstName : String){
-    var firstName = firstName; //properties always have to be initialized due to null safeties of Kotlin.
+    var firstName = firstName //properties always have to be initialized due to null safeties of Kotlin.
 }
 
 /*
@@ -25,7 +25,7 @@ class HumanWithConstructorKeyword constructor(firstName : String){
  */
 
 class HumanWithConstructorAndAField(firstName : String){
-    var firstName = firstName;
+    var firstName = firstName
 }
 
 /*

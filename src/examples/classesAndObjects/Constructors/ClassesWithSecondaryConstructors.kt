@@ -16,20 +16,20 @@ package examples.classesAndObjects.Constructors
  */
 
 class HumanWithhoutPrimaryConstructor{
-    var humanName : String = "";
-    var humanAge : Int = 0;
+    var humanName : String = ""
+    var humanAge : Int = 0
     constructor(name : String, age : Int){
-        humanName = name;
-        humanAge = age;
+        humanName = name
+        humanAge = age
     }
 }
 
 class HumanWithPrimaryAndSecondaryConstructor(name : String, age : Int){
-    var humanName : String = name;
-    var humanAge : Int = age;
-    var humanGender : String = "";
+    var humanName : String = name
+    var humanAge : Int = age
+    var humanGender : String = ""
     constructor(name : String, age: Int, gender : String) : this(name, age){
-        humanGender = gender;
+        humanGender = gender
     }
 }
 

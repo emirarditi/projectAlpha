@@ -5,9 +5,9 @@ package examples.basicFunctions
  */
 
 fun main(args: Array<String>) {
-    printer();
+    printer()
 }
 
 fun printer(){
-    println("Hello from printer");
+    println("Hello from printer")
 }

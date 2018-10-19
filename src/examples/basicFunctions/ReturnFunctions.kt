@@ -5,9 +5,9 @@ package examples.basicFunctions
  */
 
 fun main(args: Array<String>) {
-    print(twoPlusTwoGiver());
+    print(twoPlusTwoGiver())
 }
 
 fun twoPlusTwoGiver() : Int{
-    return 2 + 2;
+    return 2 + 2
 }
