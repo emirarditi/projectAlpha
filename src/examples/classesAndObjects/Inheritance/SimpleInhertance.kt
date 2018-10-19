@@ -11,22 +11,22 @@ package examples.classesAndObjects.Inheritance
     it inherits the Any class by default.
  */
 
-open class Human(gender: String);
+open class Human(gender: String)
 
-class Male() : Human("male");
+class Male() : Human("male")
 
-class Female() : Human("female");
+class Female() : Human("female")
 
 /*
     In order to inherit a class, you have to satisfy it's constructor.
  */
 
 open class Animals{
-    constructor(gender : String, type : String);
+    constructor(gender : String, type : String)
 }
 
 class myAnimal : Animals{
-    constructor(gender : String) : super(gender, "myAnimal");
+    constructor(gender : String) : super(gender, "myAnimal")
 }
 
 /*

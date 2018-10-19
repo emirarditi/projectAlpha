@@ -6,7 +6,7 @@ package examples.basicTypes
 
 fun main(args: Array<String>) {
     //Defining field types are not mandatory in kotlin. You can see and example below to understand it better.
-    var firstVal = 5;
-    var secondVal : Int = 5;
+    var firstVal = 5
+    var secondVal : Int = 5
     //Both are correct!!!
 }

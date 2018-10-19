@@ -11,7 +11,7 @@ package examples.classesAndObjects.Inheritance
  */
 
 open class Animal{
-    open fun eat() {print("hello")};
+    open fun eat() {print("hello")}
 }
 
 class Dog : Animal(){
@@ -32,10 +32,10 @@ class Cat : Animal(){
 }
 
 fun main(args: Array<String>) {
-    var cat : Cat = Cat();
-    var dog : Dog = Dog();
-    cat.eat();
-    dog.eat();
+    var cat : Cat = Cat()
+    var dog : Dog = Dog()
+    cat.eat()
+    dog.eat()
 }
 
 /*

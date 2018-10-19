@@ -16,18 +16,18 @@ package examples.classesAndObjects.propertiesAndFields
     First of all, getters and setters are optional in kotlin and that is the only pre-knowledge you need to know about them.
  */
 
-var propertyExample1 = 5;
+var propertyExample1 = 5
 
-var varPropertyWithCustomGetter : Int = 4;
-    get() = 5;
+var varPropertyWithCustomGetter : Int = 4
+    get() = 5
 
 val valPropertyWithCustomGetter : Int
-    get() = 10;
+    get() = 10
 
 class Example1{
-    var size = 3;
+    var size = 3
     val isEmpty: Boolean
-        get() =  this.size == 0;
+        get() =  this.size == 0
 }
 
 /*

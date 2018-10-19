@@ -12,7 +12,7 @@ package examples.classesAndObjects.Constructors
 
 class HumanWithInit(var firstName : String){
     init{
-        println("I am alive!!! My name is: $firstName");
+        println("I am alive!!! My name is: $firstName")
 
     }
 }
@@ -24,7 +24,7 @@ class HumanWithInit(var firstName : String){
  */
 
 fun main(args: Array<String>) {
-    var helloExample1 : HumanWithInit = HumanWithInit("Matt");
+    var helloExample1 : HumanWithInit = HumanWithInit("Matt")
 }
 
 /*,

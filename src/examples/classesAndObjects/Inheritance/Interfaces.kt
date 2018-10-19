@@ -17,11 +17,11 @@ interface MovableInterface{
         //body is optional
     }
 
-    fun click();
+    fun click()
 }
 
 interface SaveableInterface{
-    fun name();
+    fun name()
 }
 
 class GameObjectClass() : MovableInterface, SaveableInterface{ //if the funs in the inherited interface have no body, you have to override it

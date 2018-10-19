@@ -11,8 +11,8 @@ fun main(args: Array<String>) {
         with [] just like you do in an array.
      */
 
-    var string = "Hello";
-    val character = string[0];
+    var string = "Hello"
+    val character = string[0]
     /*
         Kotlin strings are also immutable so you can add chars to the start or finish, but you can't modify the existing string's chars.
         You can also iterate a string using for loops.
@@ -25,6 +25,6 @@ fun main(args: Array<String>) {
      */
 
     for((index,chars) in string.withIndex()){
-        println("The char number ${index+1} has the value $chars");
+        println("The char number ${index+1} has the value $chars")
     }
 }

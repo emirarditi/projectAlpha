@@ -9,9 +9,9 @@ fun main(args: Array<String>) {
         while loops are almost the same as the java while loops so I will only show a small example here.
      */
 
-    var index = 5;
+    var index = 5
     while(index >= 0){
-        println(index);
-        index--;
+        println(index)
+        index--
     }
 }
